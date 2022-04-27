@@ -1,0 +1,72 @@
+/* main-div */
+.main-div{
+    width: 90%;
+    box-shadow: 0 0 5px 5px gainsboro ;
+    margin: auto;
+    background-image: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)),url(img/bg-img.jpg);
+    background-size: cover;
+}
+#input-header{
+    text-align: center;
+    color: aliceblue;
+    font-family: serif;
+}
+.input-fill-2{
+    display: block;
+    width: 40%;
+    margin: auto;
+    height: 40px;
+    background: transparent;
+    border: none;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.input-fill-2::placeholder{
+    color: wheat;
+    font-size: 16px;
+}
+
+/* redio-btn */
+.input-radius{
+    width: 20%;
+    margin: auto;
+}
+
+.redio-btn{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+#select-option{
+    width: 20%;
+    padding: 10px 0;
+    display: block;
+    background: transparent;
+    border: 1px solid orange;
+    color: white;
+    font-size: 18px;
+    margin: auto;
+}
+.selection{
+    color: white;
+    background-color: green;
+    display: block;
+    text-align: center;
+    font-size: 17px;
+}
+#submit-aplication {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+    padding: 10px 27px;
+    border-radius: 6px;
+    border: none;
+    background-color: orange;
+    color: white;
+}
+#submit-aplication:hover{
+    background: transparent;
+    border: 1px solid orange;
+    border-radius: 5px;
+}
