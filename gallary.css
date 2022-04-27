@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-h2{
+    text-align: center;
+    color: orange;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.main-div{
+    width: 90%;
+    box-shadow: 0 0 4px 4px gray;
+    margin: auto;
+}
+.child-div{
+    width: 95%;
+    margin: auto;
+}
+.img {
+    width: 32%;
+    height: 207px;
+    padding: 2px;
+    transition: .7s;
+    margin: auto;
+}
+.img:hover{
+    transition: .7s;
+    box-shadow: 0 0 10px 8px grey;
+}
+
+
+
+
+
+/* Media screen setup code */
+@media only screen and (max-width: 600px) {
+    .main-div{
+        width: 90%;
+        box-shadow: 0 0 7px 7px gray;
+        margin: auto;
+    }
+    .child-div{
+        width: 95%;
+        margin: auto;
+    }
+    .img {
+        width: 100%;
+        height: 207px;
+        padding: 2px;
+        transition: .7s;
+        box-sizing: border-box;
+        margin: auto;
+    }
+    .img:hover{
+        transition: .7s;
+        box-shadow: 0 0 7px 7px gray;
+    }
+}
